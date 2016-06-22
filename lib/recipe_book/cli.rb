@@ -15,15 +15,13 @@ class RecipeBook::CLI
   end
 
   def list_cuisines
-    puts "What type of food are you in the mood for?"
-    puts "1. Greek"
-    puts "2. Italian"
-    puts "3. Korean"
-    puts "4. Mexican"
-    puts "5. Southern"
-    puts ""
+    puts "list cuisines"
+    # will list all of the cuisines on the sidebar menu of blueaporn.com/cookbook
   end
 
-
+  def list_recipes
+    puts "list recipes"
+    # will list out the first five recipies from each cuisine
+  end
 
 end # => end class
